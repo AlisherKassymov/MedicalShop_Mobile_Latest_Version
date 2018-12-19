@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/enterprise_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/enterpriseImage"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/hospitalitem"/>
+
+            <TextView
+                android:id="@+id/enterpriseName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/enterpriseImage"
+                android:textStyle="bold"
+                android:layout_marginStart="5dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/enterpriseTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/enterpriseImage"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="310dp"
+                android:src="@drawable/placeholder"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
